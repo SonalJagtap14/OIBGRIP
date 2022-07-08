@@ -1,0 +1,369 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Gaming Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Gamers Heaven </a>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#tournaments">Tournaments</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="action">
+                <div class="searchBx">
+                    <a href="#"><i class='bx bx-search-alt'></i></a>
+                    <input type="text" placeholder="Search Games">
+                </div>
+            </div>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+        </header>
+
+        <!-- Home Banner -->
+        <div class="banner animeX" id="home">
+            <div class="bg">
+                <div class="content">
+                    <h2>A New Home for<br>
+                    Gamers</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur voluptatem.</p>
+                    <a href="#" class="btn">Join Now</a>
+                </div>
+                <img src="img/assassin.png">
+            </div>
+        </div>
+
+         <!-- Games -->
+         <div class="games animeX" id="games">
+            <h2>Popular Games</h2>
+            <ul>
+                <li class="list active" data-filter="all">All</li>
+                <li class="list" data-filter="pc">Pc games</li>
+                <li class="list" data-filter="mobile">Mobile games</li>
+            </ul>
+            <div class="cardBx">
+                <div class="card" data-item="pc">
+                    <img src="img/valorant.png">
+                    <div class="content">
+                        <h4>Valorant</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>Free</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="img/assasin game.png">
+                    <div class="content">
+                        <h4>Assasins Creed Valhala</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>$15.99 </span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="img/gtav.png">
+                    <div class="content">
+                        <h4>GTA V</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>$10.99</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="img/fortnite.jpg">
+                    <div class="content">
+                        <h4>Fortnite </h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Play For<br><span>FREE</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="img/GODRagnarokCover1.jpg">
+                    <div class="content">
+                        <h4>God of War</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>$16.99</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="mobile">
+                    <img src="img/bgmi.jpg">
+                    <div class="content">
+                        <h4>Battle Grounds Mobile</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Play For<br><span>FREE</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="mobile">
+                    <img src="img/codm.jpg">
+                    <div class="content">
+                        <h4>Call Of Duty Mobile</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Play For<br><span>FREE</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="mobile">
+                    <img src="img/lolwr.jpg">
+                    <div class="content">
+                        <h4>League Of Legends Wildrift</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Play For<br><span>FREE</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="mobile">
+                    <img src="img/free.jpg">
+                    <div class="content">
+                        <h4>Free Fire</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Play For<br><span>FREE</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- About -->
+        <div class="about animeX" id="about">
+            <div class="contentBx">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error molestias cum, rerum quaerat adipisci ab pariatur sequi tempore esse repellat, ratione numquam quae fugiat aliquid aspernatur eius culpa placeat. Itaque?
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sit ducimus praesentium dicta nobis! Ad distinctio non cupiditate nulla omnis, autem inventore a, quidem doloribus tenetur culpa debitis labore fuga!
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptates sint fugit iste totam non. Temporibus assumenda corrupti inventore a impedit aliquid esse placeat voluptatibus nulla itaque quis, magni accusantium!
+                </p>
+                <a href="#">Read more</a>
+            </div>
+            <img src="img/videogame.png">
+        </div>
+
+       
+        <!-- Tournaments -->
+        <div class="tournaments animeX" id="tournaments">
+            <h2>Live Tournaments</h2>
+            <div class="boxBx">
+                <div class="box">
+                    <img src="img/Bgmi tournament.jpg">
+                    <div class="content">
+                        <h4>Battlegrounds Mobile Tournaments</h4>
+                        <h5><span>50</span> Matches in progress..</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda impedit error 
+                        eaque non, quasi recusandae eos? Natus, quibusdam distinctio accusantium ipsa aliquid.
+                       </p>
+                       <div class="btn">
+                           <a href="#" class="watch">Watch</a>
+                           <a href="#" class="join">Join Now</a>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/lol tournament.jpg">
+                    <div class="content">
+                        <h4>League of Legends Tournaments</h4>
+                        <h5><span>30</span> Matches in progress..</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda impedit error 
+                        eaque non, quasi recusandae eos? Natus, quibusdam distinctio accusantium ipsa aliquid.
+                       </p>
+                       <div class="btn">
+                           <a href="#" class="watch">Watch</a>
+                           <a href="#" class="join">Join Now</a>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/Cod Tournament.jpg">
+                    <div class="content">
+                        <h4>Call of duty Mobile Tournaments</h4>
+                        <h5><span>40</span> Matches in progress..</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda impedit error 
+                        eaque non, quasi recusandae eos? Natus, quibusdam distinctio accusantium ipsa aliquid.
+                       </p>
+                       <div class="btn">
+                           <a href="#" class="watch">Watch</a>
+                           <a href="#" class="join">Join Now</a>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/FF Tournament.jpg">
+                    <div class="content">
+                        <h4>Free Fire Tournaments</h4>
+                        <h5><span>40</span> Matches in progress..</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda impedit error 
+                        eaque non, quasi recusandae eos? Natus, quibusdam distinctio accusantium ipsa aliquid.
+                       </p>
+                       <div class="btn">
+                           <a href="#" class="watch">Watch</a>
+                           <a href="#" class="join">Join Now</a>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pubg pc tournament.jpg">
+                    <div class="content">
+                        <h4>PUBG PC Tournaments</h4>
+                        <h5><span>25</span> Matches in progress..</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda impedit error 
+                        eaque non, quasi recusandae eos? Natus, quibusdam distinctio accusantium ipsa aliquid.
+                       </p>
+                       <div class="btn">
+                           <a href="#" class="watch">Watch</a>
+                           <a href="#" class="join">Join Now</a>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/fortnite tournament.png">
+                    <div class="content">
+                        <h4>Fortnite Tournaments</h4>
+                        <h5><span>50</span> Matches in progress..</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda impedit error 
+                        eaque non, quasi recusandae eos? Natus, quibusdam distinctio accusantium ipsa aliquid.
+                       </p>
+                       <div class="btn">
+                           <a href="#" class="watch">Watch</a>
+                           <a href="#" class="join">Join Now</a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact US -->
+        <div class="contact animeX" id="contact">
+            <img src="img/contactus.jpg">
+            <div class="form">
+                <h1>Contact Us</h1>
+                <div class="inputBx">
+                    <p>Enter Name</p>
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="inputBx">
+                    <p>Enter Email</p>
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="inputBx">
+                    <p>Message</p>
+                    <textarea placeholder="Type here..."></textarea>
+                </div>
+                <div class="inputBx">
+                    <input type="submit" name="Submit">
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="info">
+                <a href="#" class="logo">Gamers Heaven</a>
+                <ul>
+                    <li><a href="#"><i class='bx bxl-github' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-linkedin' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-gmail' ></i></a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <script>
+            /* Sticky NavBar */
+            window.addEventListener('scroll',function(){
+                var header = document.querySelector('header');
+                header.classList.toggle('sticky',window.scrollY > 0);
+            });
+
+            /* Responsive NavBar */
+            function toggleMenu(){
+                const toggleMenu = document.querySelector('.toggleMenu');
+                const nav = document.querySelector('.nav');
+                toggleMenu.classList.toggle('active')
+                nav.classList.toggle('active')
+            }
+
+            /* Scrolling Animation Effects */
+            window.addEventListener('scroll',function(){
+                var anime = document.querySelectorAll('.animeX');
+
+                for(var s = 0; s < anime.length; s++){
+                    var windowheight = window.innerHeight;
+                    var animetop = anime[s].getBoundingClientRect().top;
+                    var animepoint = 150;
+
+                    if(animetop < windowheight - animepoint){
+                        anime[s].classList.add('active');
+                    }
+                    else{
+                        anime[s].classList.remove('active');
+                    }
+                }
+            })
+
+
+            /* Filterable Cards js */
+
+            let list = document.querySelectorAll('.list');
+            let card = document.querySelectorAll('.card'); 
+
+            for(let i = 0; i<list.length; i++){
+                list[i].addEventListener('click',function(){
+                    for(let j=0; j<list.length; j++){
+                        list[j].classList.remove('active');
+                    }
+                    this.classList.add('active');
+
+                    let dataFilter = this.getAttribute('data-filter');
+
+                    for( let k=0; k<card.length; k++)
+                    {
+                        card[k].classList.remove('active');
+                        card[k].classList.add('hide');
+
+                        if(card[k].getAttribute('data-item') == dataFilter || dataFilter == 'all'){
+                            card[k].classList.remove('hide');
+                            card[k].classList.add('active');
+                        }
+                    }
+                })
+            }
+        </script>
+    </body>
+</html>
